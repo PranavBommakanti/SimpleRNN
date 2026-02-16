@@ -1,9 +1,11 @@
 tensorflow==2.19.0
+scikeras
 pandas
 numpy
 scikit-learn
 matplotlib
 streamlit
-scikeras
+altair==4.2.2
+
 
 
