@@ -4,6 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
+from scikeras.wrappers import KerasClassifier
+
 
 #Load the imdb dataset word index
 word_index = imdb.get_word_index()
@@ -54,6 +56,7 @@ if st.button('Classify'):
 
 else:
     st.write('Please enter a movie review')
+
 
 
 
